@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<color name="hijau_tua">#00ff00</color>
+<color name="pink">#FF1493</color>
+<color name="merah">#ff0000</color>
+<color name="putih">#ffffff</color>
+<color name="hitam">#000000</color>
+<color name="biru_muda">#00BFFF</color>
+<color name="biru_tua">#4169E1</color>
+<color name="kuning">#ffff00</color>
+<color name="perak">#c0c0c0</color>
+
+</resources>

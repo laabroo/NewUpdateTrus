@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+
+	<ImageView android:layout_width="fill_parent" android:src="@drawable/logo"
+		android:background="@color/putih" android:layout_height="wrap_content"
+		android:layout_gravity="center" />
+	<View android:layout_width="fill_parent" android:layout_height="2dip"
+		android:background="@color/merah"></View>
+
+	<TextView android:id="@+id/text" android:textStyle="bold"
+		android:background="@color/hitam" android:textColor="@color/putih"
+		android:textSize="18sp" android:layout_width="fill_parent"
+		android:layout_height="wrap_content" />
+
+	<ImageView android:id="@+id/img" android:layout_width="wrap_content"
+		android:scaleType="fitXY" android:layout_height="wrap_content"
+		android:layout_gravity="center" />
+	<View android:layout_width="fill_parent" android:layout_height="3dip"
+		android:background="@color/putih"></View>
+
+	<LinearLayout android:layout_width="wrap_content"
+		android:layout_height="wrap_content">
+		<TableLayout android:background="@color/putih"
+			android:layout_height="wrap_content" android:layout_width="wrap_content"
+			android:stretchColumns="*">
+			<TableRow>
+
+				<Button android:id="@+id/btn_fb" android:layout_width="wrap_content"
+					android:layout_marginLeft="2px" android:layout_height="wrap_content"
+					android:background="@drawable/facebook32" android:layout_weight="1"
+					android:layout_gravity="left" />
+				<Button android:id="@+id/btn_cute" android:layout_width="wrap_content"
+					android:layout_height="wrap_content" android:background="@drawable/cute_button"
+					android:layout_weight="1" android:layout_gravity="center" />
+				<Button android:id="@+id/btn_follow" android:layout_width="wrap_content"
+					android:layout_height="wrap_content" android:background="@drawable/follow"
+					android:layout_weight="1" android:layout_gravity="center" />
+				<Button android:id="@+id/btn_twitter" android:layout_width="wrap_content"
+					android:layout_marginRight="2px" android:layout_height="wrap_content"
+					android:background="@drawable/logo_twitter" android:layout_weight="1"
+					android:layout_gravity="right" />
+
+			</TableRow>
+
+		</TableLayout>
+
+	</LinearLayout>
+	<View android:layout_width="fill_parent" android:layout_height="3dip"
+		android:background="@color/putih"></View>
+
+</LinearLayout>
+
